@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Category()
+comment0.params=noo
+comment0.target=Category(java.lang.String)
 comment1.params=
 comment1.target=java.lang.String\ getCategory()
 comment2.params=s

@@ -1,8 +1,11 @@
+import java.util.*;
 public class Category
 {
     private String name;
-    public Category()
+    private List<Option> boi = new ArrayList<Option>();
+    public Category(String noo)
     {
+        name = noo;
     }
     public String getCategory()
     {
