@@ -1,33 +1,29 @@
-
+import java.util.*;
 /**
- * Write a description of class MASH here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * MASH CLASS
  */
-public class MASH
+public class MASH extends Category
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private List<Option> boi = new ArrayList<Option>();
 
     /**
-     * Constructor for objects of class MASH
+     * Constructor of MASH
      */
     public MASH()
     {
-        // initialise instance variables
-        x = 0;
+        super("M.A.S.H");
+        boi.add(Option(Mansion));
+        boi.add(Option(Apartment));
+        boi.add(Option(Shack));
+        boi.add(Option(House));
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * RETURNS CATEGORY 
      */
-    public int sampleMethod(int y)
+    public String getCategory()
     {
-        // put your code here
-        return x + y;
+        return "M.A.S.H";
     }
 }
