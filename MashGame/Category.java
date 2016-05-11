@@ -1,3 +1,8 @@
+/**
+ * Category class creates a category and is able to add options under each category (options are instance variables)
+ * 
+ */
+
 public class Category
 {
     private String name = "";
