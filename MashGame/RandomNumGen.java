@@ -13,5 +13,5 @@ public interface RandomNumGen
      * @param  y    a sample parameter for a method
      * @return        the result produced by sampleMethod 
      */
-    int sampleMethod(int y);
+    public int Generate();
 }
