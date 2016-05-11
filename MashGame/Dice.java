@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Dice
+public class Dice implements RandomNumGen
 {
     public Dice()
     {
