@@ -13,10 +13,10 @@ public class MASH extends Category
     public MASH()
     {
         super("M.A.S.H");
-        boi.add(Option(Mansion));
-        boi.add(Option(Apartment));
-        boi.add(Option(Shack));
-        boi.add(Option(House));
+        boi.add(new Option("Mansion"));
+        boi.add(new Option("Apartment"));
+        boi.add(new Option("Shack"));
+        boi.add(new Option("House"));
     }
 
     /**
