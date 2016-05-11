@@ -1,6 +1,6 @@
 public class Category
 {
-    private String name;
+    private String name = "";
     int i = 0;
     private String[] options = new String[4];
     public Category(String cat)
@@ -27,7 +27,7 @@ public class Category
     {
         while (index < 5)
         {
-            options[index] = "";
+            options[index] = null;
         }
     }
 }
