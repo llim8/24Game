@@ -6,8 +6,8 @@
 public class Category
 {
     private String name = "";
-    int i = 0;
-    private String[] options = new String[4];
+    private int i = 0;
+    private Option[] options = new Option[4];
     public Category(String cat)
     {
         name = cat;
@@ -20,19 +20,25 @@ public class Category
     {
         name=s;
     }
-    public void addOptions(String kitten)
-    {
-        while (i<5)
-        {
-            options[i] = kitten;
-            i++;
-        }
+    public void addOptions(Option kitten, Option dog, Option turtle, Option giraffe)
+    {      
+        options[0] = kitten;    
+        options[1] = dog;
+        options[2] = turtle;
+        options[3] = giraffe;
     }
-    public void removeOptions(int index)
+    public Option removeOptions(int index)
     {
-        while (index < 5)
+        if (index < 4)
         {
+            Option x = options[index];
             options[index] = null;
+            return x;
         }
+        return null;
+    }
+    public Option getOption(int index)
+    {
+        return options[index];
     }
 }

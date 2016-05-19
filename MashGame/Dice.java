@@ -1,9 +1,6 @@
 
 /**
- * Write a description of class Dice here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * A random number is generated through two die
  */
 public class Dice implements RandomNumGen
 {

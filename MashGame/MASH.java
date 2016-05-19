@@ -7,7 +7,7 @@ import java.util.*;
 public class MASH extends Category
 {
     // instance variables - replace the example below with your own
-    private List<Option> boi = new ArrayList<Option>();
+    private final Option[] boi = new Option[4];
     
     /**
      * Constructor of MASH
@@ -15,17 +15,13 @@ public class MASH extends Category
     public MASH()
     {
         super("M.A.S.H");
-        boi.add(new Option("Mansion"));
-        boi.add(new Option("Apartment"));
-        boi.add(new Option("Shack"));
-        boi.add(new Option("House"));
-    }
-
-    /**
-     * RETURNS CATEGORY 
-     */
-    public String getCategory()
-    {
-        return "M.A.S.H";
+        boi[0] = new Option("Mansion");
+        boi[1] = new Option("Apartment");
+        boi[2] = new Option("Shack");
+        boi[3] = new Option("House");
     }
 }
+
+
+
+
