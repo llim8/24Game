@@ -1,27 +1,36 @@
 import java.util.*;
 /**
- * MASH CLASS is a child of Category class, because MASH itself is a category and has options under it
- * Creates a MASH category and adds options
- * 
+ * MASH CLASS
  */
 public class MASH extends Category
 {
     // instance variables - replace the example below with your own
-    private final Option[] boi = new Option[4];
-    
+    private List<Option> boi = new ArrayList<Option>();
+
     /**
      * Constructor of MASH
      */
     public MASH()
     {
         super("M.A.S.H");
-        boi[0] = new Option("Mansion");
-        boi[1] = new Option("Apartment");
-        boi[2] = new Option("Shack");
-        boi[3] = new Option("House");
+        boi.add(new Option("Mansion"));
+        boi.add(new Option("Apartment"));
+        boi.add(new Option("Shack"));
+        boi.add(new Option("House"));
+    }
+
+    /**
+     * RETURNS CATEGORY 
+     */
+    public String getCategory()
+    {
+        return "M.A.S.H";
+    }
+    public Option getOption (int index)
+    {
+        return boi.get(index);
     }
 }
-
 
 
 

@@ -17,7 +17,8 @@ public class Table
     }
 
     public int[] Algorithm(int numb)
-    {        
+    {
+        
         if (numb==2)
             
         {
@@ -73,8 +74,10 @@ public class Table
         {
             int[] res = {0,1,2,3};
             return res;
-        }        
+        }
+        
     }
+
 }
 
 
