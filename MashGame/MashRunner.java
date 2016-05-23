@@ -123,20 +123,12 @@ public class MashRunner
         results.add(final2.getOption());
         results.add(final3.getOption());
         results.add(final4.getOption());
-<<<<<<< HEAD
         String s = "\n \n Thank you for playing MASH! Here is your fate: \n";
         s=s+ "  You will live in a " + results.get(0) + "\n";
         s=s+ "  Future " + category1.getCategory() + ": " + results.get(1) + "\n";
         s=s+ "  Future " + category2.getCategory() + ": " + results.get(2) + "\n";
         s=s+ "  Future " + category3.getCategory() + ": " + results.get(3) + "\n";
-=======
-        String s = "\n Thank you for playing MASH! Here is your fate: \n";
-        s=s+ "You will live in a " + results.get(0) + "\n";
-        s=s+ "Future " + category1.getCategory() + ": " + results.get(1) + "\n";
-        s=s+ "Future " + category2.getCategory() + ": " + results.get(2) + "\n";
-        s=s+ "Future " + category3.getCategory() + ": " + results.get(3) + "\n";
->>>>>>> 2e3d52e56ab218f91ae76fd1af96fe6bd91c6ea9
-        return s;
+       return s;
     }
 }
 
