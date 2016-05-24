@@ -13,17 +13,17 @@ public class Category
         name = cat;
     }
 
-    public String getCategory()
+    public String getCategory() //returns Category name as a String
     {
         return name;
     }
 
-    public void setCategory(String s)
+    public void setCategory(String s) //sets the category name
     {
         name=s;
     }
 
-    public void addOptions(Option kitten, Option dog, Option turtle, Option giraffe)
+    public void addOptions(Option kitten, Option dog, Option turtle, Option giraffe) //adds options under category
     {      
         options[0] = kitten;    
         options[1] = dog;
@@ -31,7 +31,7 @@ public class Category
         options[3] = giraffe;
     }
 
-    public Option removeOptions(int index)
+    public Option removeOptions(int index) //removes options under category with given index
     {
         if (index < 4)
         {
@@ -42,12 +42,12 @@ public class Category
         return null;
     }
 
-    public Option getOption(int index)
+    public Option getOption(int index) //returns option under category with given index
     {
         return options[index];
     }
 
-    public int getLong()
+    public int getLong() //returns the length of the longest option name
     {
         int lo = 0;
         for (int i = 0; i<4; i++)

@@ -1,14 +1,14 @@
 import java.util.*;
 /**
- * Table class creates a table of 4 different categories that is to be displayed in Graphics class
- * It also creates the four different categories inputted by the user.
+ * Table class creates a table of 4 different categories that is to be displayed in MashRunner class
+ *  
  */
 public class Table
 {
     // instance variables - replace the example below with your own
     private Category[] Categories = new Category[4];
     int[] res = new int[4];
-    public Table(Category a, Category b, Category c)
+    public Table(Category a, Category b, Category c) // constructor for Table class
     {
         Categories[0]=new MASH();
         Categories[1]=a;
@@ -16,7 +16,7 @@ public class Table
         Categories[3]=c;
     }
 
-    public int[] Algorithm(int numb)
+    public int[] Algorithm(int numb) //Returns the indices depending on the random number generated
     {
         
         if (numb==2)

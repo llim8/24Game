@@ -10,7 +10,7 @@ public class MASH extends Category
     /**
      * Constructor of MASH
      */
-    public MASH()
+    public MASH() //creates a new category called MASH
     {
         super("M.A.S.H");
         boi.add(new Option("Mansion"));
@@ -22,11 +22,11 @@ public class MASH extends Category
     /**
      * RETURNS CATEGORY 
      */
-    public String getCategory()
+    public String getCategory() //returns MASH String
     {
         return "M.A.S.H";
     }
-    public Option getOption (int index)
+    public Option getOption (int index) //returns options under MASH
     {
         return boi.get(index);
     }

@@ -15,7 +15,7 @@ public class MashRunner
     private static int num;
     private static int[] fate;
     private static int lon;
-    public static void main(String[] args)
+    public static void main(String[] args) //user gets to interact with computer
     {
         Scanner scan = new Scanner (System.in);
         //First category input

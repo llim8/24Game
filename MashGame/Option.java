@@ -1,4 +1,4 @@
-public class Option
+public class Option //Creates a new option with a String inputted
 {
     private String option = "";
     public Option(String o)
