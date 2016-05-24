@@ -57,7 +57,7 @@ dependency9.from=MashRunner
 dependency9.to=MASH
 dependency9.type=UsesDependency
 objectbench.height=100
-objectbench.width=668
+objectbench.width=963
 package.editor.height=400
 package.editor.width=865
 package.editor.x=39
@@ -91,12 +91,29 @@ target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
 target10.width=100
+<<<<<<< HEAD
 target10.x=750
 target10.y=0
 target2.editor.height=819
 target2.editor.width=900
 target2.editor.x=988
 target2.editor.y=208
+=======
+target10.x=100
+target10.y=70
+target11.height=50
+target11.name=MashRunnerTest
+target11.showInterface=false
+target11.type=UnitTestTargetJunit4
+target11.typeParameters=
+target11.width=130
+target11.x=100
+target11.y=200
+target2.editor.height=784
+target2.editor.width=855
+target2.editor.x=619
+target2.editor.y=468
+>>>>>>> fb9c6a37c43effcfee737e4c9c3130e6d7e87ea0
 target2.height=50
 target2.name=Table
 target2.showInterface=false
@@ -115,10 +132,17 @@ target3.naviview.expanded=false
 target3.showInterface=false
 target3.type=UnitTestTargetJunit4
 target3.typeParameters=
+<<<<<<< HEAD
 target3.width=110
 target3.x=740
 target3.y=130
 target4.editor.height=700
+=======
+target3.width=80
+target3.x=250
+target3.y=10
+target4.editor.height=784
+>>>>>>> fb9c6a37c43effcfee737e4c9c3130e6d7e87ea0
 target4.editor.width=900
 target4.editor.x=836
 target4.editor.y=175
@@ -166,6 +190,7 @@ target7.naviview.expanded=true
 target7.showInterface=false
 target7.type=InterfaceTarget
 target7.typeParameters=
+<<<<<<< HEAD
 target7.width=130
 target7.x=110
 target7.y=140
@@ -175,6 +200,17 @@ target8.editor.x=830
 target8.editor.y=104
 target8.height=50
 target8.name=Option
+=======
+target7.width=80
+target7.x=320
+target7.y=200
+target8.editor.height=700
+target8.editor.width=900
+target8.editor.x=332
+target8.editor.y=82
+target8.height=50
+target8.name=TableTest
+>>>>>>> fb9c6a37c43effcfee737e4c9c3130e6d7e87ea0
 target8.naviview.expanded=true
 target8.showInterface=false
 target8.type=ClassTarget
