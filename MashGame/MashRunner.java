@@ -20,7 +20,7 @@ public class MashRunner
         Scanner scan = new Scanner (System.in);
         //First category input
         System.out.println("Welcome to M.A.S.H");
-        System.out.println("Please enter in a category");
+        System.out.println("Please enter in a category (singular)");
         category1 = new Category(scan.nextLine());
         System.out.println("Enter the first option for " + category1.getCategory());
         c1o1 = new Option(scan.nextLine());
@@ -33,7 +33,7 @@ public class MashRunner
         category1.addOptions(c1o1, c1o2, c1o3, c1o4);
 
         //Second category input
-        System.out.println("Please enter in a second category");
+        System.out.println("Please enter in a second category (singular)");
         category2 = new Category(scan.nextLine());
         System.out.println("Enter the first option for " + category2.getCategory());
         c2o1 = new Option(scan.nextLine());
@@ -46,7 +46,7 @@ public class MashRunner
         category2.addOptions(c2o1, c2o2, c2o3, c2o4);
 
         //Third category input
-        System.out.println("Please enter in a third category");
+        System.out.println("Please enter in a third category (singular)");
         category3 = new Category(scan.nextLine());
         System.out.println("Enter the first option for " + category3.getCategory());
         c3o1 = new Option(scan.nextLine());
@@ -112,7 +112,7 @@ public class MashRunner
         System.out.println(MashRunner.Result(fate[0],fate[1],fate[2],fate[3]));
     }
 
-    public static String Result(int ind0, int ind1, int ind2, int ind3)
+    public static String Result(int ind0, int ind1, int ind2, int ind3)//Makes one big, exciting statement of your fate
     {
         ArrayList<String> results = new ArrayList<String>();
         final1 = mash.getOption(ind0);
@@ -131,6 +131,8 @@ public class MashRunner
        return s;
     }
 }
+
+
 
 
 

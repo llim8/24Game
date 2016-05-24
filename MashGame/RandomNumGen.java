@@ -6,3 +6,6 @@ public interface RandomNumGen
 {
     public int Generate();
 }
+
+
+

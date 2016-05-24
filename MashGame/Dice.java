@@ -8,6 +8,9 @@ public class Dice implements RandomNumGen
     {
     }
     public int Generate(){
-        return ((int)(Math.random()*6+1))+((int)(Math.random()*6+1));
+        return ((int)Math.random()*6+1)+((int)Math.random()*6+1);
     }
 }
+
+
+

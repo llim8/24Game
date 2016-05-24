@@ -9,3 +9,4 @@ public class DiceTest
             System.out.println(dice.Generate());
     }
 }
+
