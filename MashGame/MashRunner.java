@@ -64,40 +64,40 @@ public class MashRunner
         Table table = new Table (category1, category2, category3);
         for (int i=0; i<lon; i++)
             System.out.print(" ");
-        System.out.println("___M.A.S.H___");
+        System.out.println("  ___M.A.S.H___");
         for (int i=0; i<lon - category3.getCategory().length(); i++)
             System.out.print(" ");
-        System.out.println(category3.getCategory() + "|           |" + category1.getCategory());
+        System.out.println("-"+category3.getCategory()+"-" + "|           |" + "-"+ category1.getCategory()+ "-");
         for (int i=0;i<lon-c3o1.getOption().length();i++)
             System.out.print(" ");
-        System.out.println(c3o1.getOption() + "|           |" + c1o1.getOption());
+        System.out.println("  "+c3o1.getOption() + "|           |" + c1o1.getOption());
         for (int i=0;i<lon-c3o2.getOption().length();i++)
             System.out.print(" ");
-        System.out.println(c3o2.getOption() + "|           |" + c1o2.getOption());
+        System.out.println("  "+c3o2.getOption() + "|           |" + c1o2.getOption());
         for (int i=0;i<lon-c3o3.getOption().length();i++)
             System.out.print(" ");
-        System.out.println(c3o3.getOption() + "|           |" + c1o3.getOption());
+        System.out.println("  "+c3o3.getOption() + "|           |" + c1o3.getOption());
         for (int i=0;i<lon-c3o4.getOption().length();i++)
             System.out.print(" ");
-        System.out.println(c3o4.getOption() + "|           |" + c1o4.getOption());
+        System.out.println("  "+c3o4.getOption() + "|           |" + c1o4.getOption());
         for (int i=0; i<lon; i++)
             System.out.print(" ");
-        System.out.println("`````````````");
+        System.out.println("  `````````````");
         for (int i=0; i<lon; i++)
             System.out.print(" ");
-        System.out.println(category2.getCategory());
+        System.out.println("  -" + category2.getCategory() + "-");
         for (int i=-2; i<lon; i++)
             System.out.print(" ");
-        System.out.println("-" + c2o1.getOption());
+        System.out.println("  "+c2o1.getOption());
         for (int i=-2; i<lon; i++)
             System.out.print(" ");
-        System.out.println("-" + c2o2.getOption());
+        System.out.println("  "+c2o2.getOption());
         for (int i=-2; i<lon; i++)
             System.out.print(" ");
-        System.out.println("-" + c2o3.getOption());
+        System.out.println("  "+c2o3.getOption());
         for (int i=-2; i<lon; i++)
             System.out.print(" ");
-        System.out.println("-" + c2o4.getOption());
+        System.out.println("  "+c2o4.getOption());
         
         //generates a random number with die
         Dice d = new Dice();
@@ -131,6 +131,8 @@ public class MashRunner
        return s;
     }
 }
+
+
 
 
 
